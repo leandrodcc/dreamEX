@@ -1,0 +1,80 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Spectral');
+@import url('https://fonts.googleapis.com/css?family=Marcellus');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+html,
+input {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* generic styles */
+body {
+	font-family: Spectral, serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #ffffff;
+	color: #565656;
+}
+
+h1 {
+  font-family: Marcellus, serif;
+	font-size: 82px;
+  line-height: 1.1;
+}
+
+h2, a {
+  font-family: Didact Gothic, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+h3 {
+  font-family: Marcellus, serif;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+a {
+  color: #565656;
+  text-decoration: none;
+}
+
+.cream {
+  color: #fff2c6;
+}
+
+.red {
+  color: #e44d42;
+}
+
+.pink {
+  color: #f8b6a6;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.mtop-2 {
+	margin-top: 2vh;
+}
+
+.wd-50 {
+  width: 50%;
+}
+
+.container1, .container2 {
+	padding: 6vh 4vw;
+}
+
+::selection {
+	background: none;
+  color: #e44d42;
+}
